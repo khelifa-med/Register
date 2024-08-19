@@ -1,0 +1,56 @@
+/* General Navbar Styling */
+.navbar{
+  background-color: transparent !important;
+  top: 0;
+  
+}
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  /* Buttons Styling */
+  .nav-buttons .btn-outline-primary {
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-buttons .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+  }
+  
+  .nav-buttons .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .nav-buttons .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Mobile Toggle */
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  

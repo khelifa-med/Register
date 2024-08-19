@@ -1,0 +1,50 @@
+
+
+
+/* HomePage.css */
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro, .features {
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
